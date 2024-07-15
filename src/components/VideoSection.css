@@ -1,0 +1,27 @@
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: url('../../public/img/background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .video-text {
+    max-width: 50%;
+  }
+  
+  .category-title {
+    background-color: rgba(30, 144, 255, 0.7);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .video-image img {
+    border: 5px solid #4b0082;
+    border-radius: 8px;
+    width: 300px;
+  }
+  

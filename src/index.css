@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, .cards-container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.header .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1da1f2;
+}
+
+.header nav {
+  display: flex;
+}
+
+.header nav a {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  border: 2px solid transparent;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.header nav a:hover {
+  background-color: #555;
+}
+
+.header nav a.home-btn {
+  border-color: #1da1f2;
+}
+
+.header nav a.new-video-btn {
+  border-color: #28a745;
+  background-color: #28a745;
+}
+
+.header nav a.new-video-btn:hover {
+  background-color: #218838;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section h2 {
+  margin: 20px 0;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 10px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #1c1c1c;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.card button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
